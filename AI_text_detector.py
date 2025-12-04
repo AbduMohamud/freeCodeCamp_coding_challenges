@@ -38,6 +38,7 @@ def detect_ai(text):
                    word_len_greater_7 += 1
                    print(split_text[i])
                    print(word_len_greater_7)
+                   print("no bracket")
                    break
            
             
@@ -65,10 +66,12 @@ def detect_ai(text):
     
     
 
-    return  dash_count, bracket_count, word_len_greater_7,  space_count, text_letters_only
+    return  
 
 detect_ai(text)
 detect_ai(text_2)
 detect_ai(text_3)
 detect_ai(text_4)
 detect_ai(text_5)
+
+#dash_count, bracket_count, word_len_greater_7,  space_count, text_letters_only
