@@ -7,6 +7,9 @@ The input string will contain only letters (A-Z and a-z) and will always start w
 Every uppercase letter in the camel case string starts a new word.
 Convert all letters to lowercase.
 Separate words with an underscore (_). 
+
+"helloWorld" -> "hello_world"
+"myVariableName" -> "my_variable_name"
     
     """
 
